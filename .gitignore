@@ -1,0 +1,31 @@
+# Case PDF — local reference only, not for the repo
+rodinya_case.pdf
+
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+*.tsbuildinfo
+
+# Environment — secrets stay out of the repo
+.env
+.env.*
+!.env.example
+
+# Uploaded media files (runtime)
+uploads/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Test coverage
+coverage/
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
